@@ -23,7 +23,7 @@ hc_widget.createButton = function(text, url) {
 hc_widget.createImage = function(text, url) {
 	var image = document.createElement("img");
 	image.alt = text;
-	image.src = "http://cuteanimalpicturesandvideos.com/wp-content/uploads/boss-cat-tie.jpg";
+	image.src = "https://raw.githubusercontent.com/cprieto/widget/master/boss-cat-tie.jpg";
 	image.onclick = function() {
 		window.open(url, "_blank");
 	}
