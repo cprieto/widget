@@ -38,7 +38,7 @@ hc_widget.createWidget = function() {
 		var widget = hc_widget.createLink(text, url);	
 	} else if (hc_widget_type == "button") {
 		var widget = hc_widget.createButton(text, url);
-	} else if (hc_widget_type == "image") {
+	} else if (hc_widget_type == "ad") {
 		var widget = hc_widget.createImage(text, url);
 	} else {
 		var widget = document.createElement("a");
